@@ -5,8 +5,8 @@
 #include "lib/mqttConnection.h"
 #include "lib/temperaturesensor.h"
 
-#define SSID "Infitech"
-#define PASSWORD "infitech#dpm"
+#define SSID "coloque o nome do seu wifi"
+#define PASSWORD "coloque a senha do seu wifi"
 
 // Inicializa a estrututa de dados do cliente MQTT alocando espaço na memória
 static MQTT_CLIENT_T* mqtt_client_init(void) {
